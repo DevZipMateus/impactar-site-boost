@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -9,10 +10,17 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex items-center justify-center pt-20 px-4"
-      style={{ background: "var(--gradient-hero)" }}
+      className="min-h-screen flex items-center justify-center pt-20 px-4 relative"
     >
-      <div className="container mx-auto">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${heroBackground})`,
+          opacity: 0.15,
+        }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-secondary/80 to-background/95" />
+      <div className="container mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
