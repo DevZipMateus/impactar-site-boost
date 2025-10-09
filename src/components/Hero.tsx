@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import heroLogo from "@/assets/hero-logo.jpg";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -66,7 +67,7 @@ const Hero = () => {
 
           <div className="hidden md:flex justify-center animate-fade-in">
             <img
-              src="/logo-new.png"
+              src={heroLogo}
               alt="Impactar Representações - Logo"
               className="max-w-md w-full h-auto"
             />
