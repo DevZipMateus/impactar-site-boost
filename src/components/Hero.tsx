@@ -16,10 +16,9 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: `url(${heroBackground})`,
-          opacity: 0.15,
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary/80 to-background/95" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/80 to-background/90" />
       <div className="container mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
