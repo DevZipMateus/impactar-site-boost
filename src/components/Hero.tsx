@@ -66,9 +66,9 @@ const Hero = () => {
 
           <div className="hidden md:flex justify-center animate-fade-in">
             <img
-              src="/logo.jpg"
+              src="/logo-new.png"
               alt="Impactar Representações - Logo"
-              className="max-w-md w-full h-auto rounded-lg shadow-lg"
+              className="max-w-md w-full h-auto"
             />
           </div>
         </div>
