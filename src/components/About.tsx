@@ -1,4 +1,5 @@
 import { Award, Clock, Users } from "lucide-react";
+import aboutBanner from "@/assets/about-banner.png";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
           <div className="w-20 h-1 bg-primary mx-auto rounded"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           <div className="space-y-6 animate-fade-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
               Após muitos anos no ramo, tive a ideia de abrir minha própria empresa. A Impactar
@@ -28,46 +29,54 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid gap-6 animate-fade-in">
-            <div className="bg-secondary/50 p-6 rounded-lg hover:shadow-lg transition-all hover:scale-105">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <Award className="h-8 w-8 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Qualidade garantida</h3>
-                  <p className="text-muted-foreground">
-                    Produtos e serviços de alta qualidade com garantia e suporte completo.
-                  </p>
-                </div>
+          <div className="flex justify-center animate-fade-in">
+            <img
+              src={aboutBanner}
+              alt="Impactar Representações - Borracha nova, economia de energia"
+              className="rounded-2xl shadow-lg max-w-full h-auto"
+            />
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6 animate-fade-in">
+          <div className="bg-secondary/50 p-6 rounded-lg hover:shadow-lg transition-all hover:scale-105">
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg">
+                <Award className="h-8 w-8 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Qualidade garantida</h3>
+                <p className="text-muted-foreground">
+                  Produtos e serviços de alta qualidade com garantia e suporte completo.
+                </p>
               </div>
             </div>
+          </div>
 
-            <div className="bg-secondary/50 p-6 rounded-lg hover:shadow-lg transition-all hover:scale-105">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <Clock className="h-8 w-8 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Experiência no mercado</h3>
-                  <p className="text-muted-foreground">
-                    Anos de experiência no ramo de refrigeração e serviços especializados.
-                  </p>
-                </div>
+          <div className="bg-secondary/50 p-6 rounded-lg hover:shadow-lg transition-all hover:scale-105">
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg">
+                <Clock className="h-8 w-8 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Experiência no mercado</h3>
+                <p className="text-muted-foreground">
+                  Anos de experiência no ramo de refrigeração e serviços especializados.
+                </p>
               </div>
             </div>
+          </div>
 
-            <div className="bg-secondary/50 p-6 rounded-lg hover:shadow-lg transition-all hover:scale-105">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <Users className="h-8 w-8 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Atendimento personalizado</h3>
-                  <p className="text-muted-foreground">
-                    Soluções personalizadas para cada cliente, sempre com profissionalismo.
-                  </p>
-                </div>
+          <div className="bg-secondary/50 p-6 rounded-lg hover:shadow-lg transition-all hover:scale-105">
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg">
+                <Users className="h-8 w-8 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Atendimento personalizado</h3>
+                <p className="text-muted-foreground">
+                  Soluções personalizadas para cada cliente, sempre com profissionalismo.
+                </p>
               </div>
             </div>
           </div>
