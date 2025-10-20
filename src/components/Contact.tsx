@@ -57,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold mb-1">Endereço</p>
-                    <p>Rua Felipe Camarão 22</p>
+                    <p>Rua Felipe Camarão 22 , Itaboraí- RJ</p>
                   </div>
                 </div>
 
