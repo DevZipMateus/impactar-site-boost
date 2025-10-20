@@ -30,9 +30,7 @@ const Hero = () => {
               Impactar Representações Comércio e Serviços ltda
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground">
-              Especialistas em peças e equipamentos para refrigeração, com anos de experiência no
-              mercado. Oferecemos soluções completas em refrigeração, elétrica, hidráulica e
-              fabricação de borrachas para geladeiras.
+              Especialistas em peças e equipamentos para refrigeração, com anos de experiência no mercado. Oferecemos soluções completas em refrigeração, elétrica, hidráulica e fabricação de borrachas para geladeiras em Itaboraí- RJ
             </h2>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button
